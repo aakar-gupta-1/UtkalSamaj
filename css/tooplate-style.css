@@ -291,6 +291,10 @@ footer {
   margin: 15px 20px;
   text-transform: uppercase;
 }
+.nav-logo{
+	height=4px;
+	width=4px;
+}
 
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
