@@ -504,6 +504,7 @@ footer {
   position: relative;
   margin-top: 34px;
   margin-bottom: 16px;
+  border-radius: 40px;
 }
 
 .team-item img {
@@ -511,7 +512,7 @@ footer {
   transition: all ease-in-out 0.4s;
 }
 .team-item:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .team-overlay {
@@ -542,7 +543,7 @@ footer {
 }
 
 .team-item:hover .team-overlay {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 /*---------------------------------------
