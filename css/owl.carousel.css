@@ -19,6 +19,15 @@
 	width: 100%;
 	-ms-touch-action: pan-y;
 }
+
+.owl-carousel2{
+	position: relative;
+    width:100%;
+    height:100%;
+    text-align: center;
+	justify-content: center;
+}
+
 .owl-carousel .owl-wrapper{
 	display: none;
 	position: relative;
@@ -38,7 +47,7 @@
 }
 	
 .owl-carousel .owl-item{
-	float: left;
+	float:left;
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{

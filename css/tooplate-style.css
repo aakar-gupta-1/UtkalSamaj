@@ -341,6 +341,68 @@ footer {
   border-color: transparent;
 }
 
+.change-navbar {
+  margin-bottom: 0;
+  background-color: #822534;
+  padding: 20px 0;
+  
+}
+.change-navbar .navbar-brand {
+  font-family: "EB Garamond", serif;
+  color: #f9f9f9;
+  /* font-weight: bold; */
+  font-size: 28px;
+}
+
+.change-navbar .nav li a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #f9f9f9;
+  letter-spacing: 0.5px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  padding: 0;
+  margin: 15px 20px;
+  text-transform: uppercase;
+}
+
+.change-navbar .navbar-nav li a:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 2px;
+  margin: auto;
+  background: transparent;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.change-navbar .navbar-nav li a:hover:after,
+.change-navbar .nav li.active > a:after {
+  background: #ffffff;
+  color: #ffffff;
+  width: 100%;
+}
+
+.change-navbar .nav li.active > a {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.chnage-navbar .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+
+.change-navbar .navbar-toggle {
+  background-color: transparent;
+}
+
+.change-navbar .navbar-toggle .icon-bar {
+  background: #ffffff;
+  border-color: transparent;
+}
+
 @media (min-width: 768px) {
   .custom-navbar {
     background: 0 0;
