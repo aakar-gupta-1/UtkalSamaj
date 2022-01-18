@@ -688,6 +688,9 @@ footer .copyright-text {
   padding: 0;
   margin: 0;
   text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  
 }
 
 .social-icon li {
