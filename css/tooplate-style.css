@@ -190,6 +190,7 @@ a:focus {
 .section-title {
   position: relative;
   padding-bottom: 22px;
+  text-align: center;
 }
 
 .parallax-section {
@@ -463,7 +464,7 @@ footer {
 }
 
 #home video {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -481,6 +482,7 @@ footer {
 -----------------------------------------*/
 
 #about {
+  background-image: url('/images/utkal11.png');
   padding-top: 200px;
   padding-bottom: 150px;
 }
@@ -801,6 +803,7 @@ footer .copyright-text {
   }
 }
 .calender{
+ 
   position: relative;
   width:auto;
   height:auto;
@@ -816,10 +819,15 @@ footer .copyright-text {
 }
 .main-calender
 {
+  margin-top: 50px;
+  margin-bottom: 50px;
   position: relative;
   align-items: center;
-  height: 40rem;
+  height: 50rem;
   width:100%;
-  margin-bottom: 0px;
   border-radius: 3px;
+}
+.calender-background{
+  background-image: url("/images/calBack.png") !important;
+  
 }
