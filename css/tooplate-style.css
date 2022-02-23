@@ -482,7 +482,7 @@ footer {
 -----------------------------------------*/
 
 #about {
-  background-image: url('/images/utkal11.png');
+  background-image: url('../images/utkal11.png');
   padding-top: 200px;
   padding-bottom: 150px;
 }
@@ -828,6 +828,6 @@ footer .copyright-text {
   border-radius: 3px;
 }
 .calender-background{
-  background-image: url("/images/calBack.png") !important;
+  background-image: url("../images/calBack.png") !important;
   
 }
