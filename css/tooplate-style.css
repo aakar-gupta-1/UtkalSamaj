@@ -800,3 +800,26 @@ footer .copyright-text {
     padding: 5em 0;
   }
 }
+.calender{
+  position: relative;
+  width:auto;
+  height:auto;
+  padding: 0%;
+  margin: 0%;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.calender h1{
+  margin: 0px;
+  padding: 0px;
+  align-self: center;
+}
+.main-calender
+{
+  position: relative;
+  align-items: center;
+  height: 40rem;
+  width:100%;
+  margin-bottom: 0px;
+  border-radius: 3px;
+}
