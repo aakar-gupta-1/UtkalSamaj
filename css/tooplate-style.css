@@ -38,6 +38,7 @@ h1 {
   font-size: 40px;
   font-weight: 200;
   line-height: 50px;
+  margin-top: 0px;
 }
 
 h2 {
@@ -64,6 +65,7 @@ p {
   font-weight: 300;
   line-height: 29px;
   letter-spacing: 0.5px;
+  margin: 50px 0px;
 }
 
 /*---------------------------------------
@@ -830,4 +832,11 @@ footer .copyright-text {
 .calender-background{
   background-image: url("../images/calBack.png") !important;
   
+}
+
+.joinUs{
+  background-color: #F9F9F9 !important;
+  color: #822534 !important;
+  border-radius: 10px !important;
+  padding-inline: 10px !important;
 }
