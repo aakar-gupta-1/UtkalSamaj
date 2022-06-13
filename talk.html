@@ -28,7 +28,7 @@
 
     font-family: Source Sans Pro;
 }
-    h2 {
+    h1 {
         color: #822534;
         text-align: center;
     }
@@ -64,40 +64,38 @@
     body .navbar {
       background: #822534;
     }
+ footer{
+  position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+  
+ }
+ .inlin{
+    background-color: #822534;
+    height: 60px;
+}
+.utkal{
+  margin-left:20px;
+}
 </style>
 
 <body>
-    <div class="navbar custom-navbar" role="navigation">
+   
+    
+  <div class="inlin">
+    <span>
+        <a href="index.html">
+            <img src="images/Utkal2.png" class="utkal" alt="Logo" width="60" height="57" />
+        </a>
+    </span>
+  
+</div>
 
-        <!-- NAVBAR HEADER -->
-        <div class="navbar-header">
-          <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
-          </button>
-          <!-- lOGO -->
+
     
-          <a href="index.html" class="navbar-brand">
-            <div class="inline">
-              <img src="images/Utkal1.png" alt="Logo" width="60" height="60" style="margin-top: -20px;" />
-              <span>Utkal Samaj</span>
-            </div>
-          </a>
-        </div>
-    
-        <!-- MENU LINKS -->
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home" class="smoothScroll">Home</a></li>
-            <li><a href="#project" class="smoothScroll">Events</a></li>
-            <li><a href="#team" class="smoothScroll">Our People</a></li>
-            <li><a href="#calender" class="smoothScroll">Calendar</a></li>
-            <li><a href="#contacts" class="smoothScroll">Let's Talk</a></li>
-          </ul>
-        </div>
-    
-      </div>
+       
     <div class="container">
         <div class="row">
             <div class="col my-5">
@@ -105,7 +103,7 @@
             </div>
             <div class="col">
 
-                <h2 class="my-5">Talk to us!</h2>
+                <h1 class="my-5">Talk to us!</h1>
                 <div class="name">
 
                     <input class="my-7 text" type="text" value="Name">

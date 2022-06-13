@@ -549,6 +549,30 @@ footer {
 .project-item:hover .project-overlay {
   opacity: 1;
 }
+.event-btn{
+  width: 260px;
+height: 68px;
+background: #852533;
+border: 2px solid #852533;
+border-radius:20px;
+position: absolute;
+
+color: white;
+text-align: center;
+padding-top: 16px;
+padding-left: 30px;
+font-family: Source Sans Pro;
+font-size: 26px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+
+margin-left: 650px;
+}
+.event-btn:hover{
+  color:white;
+  text-decoration: none;
+}
 
 /*---------------------------------------
    TEAM             
@@ -611,6 +635,54 @@ footer {
 .team-item:hover .team-overlay {
   opacity: 0.5;
 }
+/*Meet */
+
+.meet1{
+  display: flex;
+margin-left: 150px;
+}
+.meet1>h2{
+margin-top:180px;
+margin-left: 140px;
+font-size:70px;
+color: #822534;
+font-weight: bold;
+}
+.right1{
+  margin-left: 150px;
+}
+.meet{
+  height: 1500px;
+  margin-top:60px;
+  display: flex;
+  flex-direction: column;
+
+}
+.meet>h1{
+  text-align: center;
+  font-size:50px;
+  color: black;
+ 
+}
+.right3{
+margin-left:400px;
+}
+.right1 ,.right3 ,.left{
+  height:450px;
+  width: 450px;
+}
+.meet2{
+  display: flex;
+margin-left: 150px;
+}
+.meet2>h2{
+  margin-top:180px;
+  margin-left: 140px;
+  font-size:70px;
+  color: #822534;
+  font-weight: bold;
+  }
+
 
 /*---------------------------------------
   CONTACT             
@@ -666,9 +738,12 @@ footer {
   FOOTER              
 -----------------------------------------*/
 
+
 footer {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ededed;
+
 }
 
 footer h4 {
@@ -676,7 +751,8 @@ footer h4 {
 }
 
 footer a {
-  color: #757575;
+  color: black;
+
 }
 
 footer .copyright-text {
@@ -686,14 +762,16 @@ footer .copyright-text {
 /*---------------------------------------
   SOCIAL ICON             
 -----------------------------------------*/
-
+.social{
+  display: flex;
+}
 .social-icon {
-  position: relative;
+  position: absolute;
   padding: 0;
   margin: 0;
-  text-align: center;
-  margin-left: 90px;
-  margin-right: 90px;
+
+right:0;
+margin-right:40px;;
   
 }
 
@@ -718,6 +796,10 @@ footer .copyright-text {
 .social-icon li a:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+}
+.copy
+{
+  margin-left: 40px;
 }
 
 /*---------------------------------------
@@ -753,14 +835,31 @@ footer .copyright-text {
   footer {
     text-align: center;
   }
-  footer .social-icon {
-    margin-top: 32px;
-  }
+
 }
 
 @media (max-width: 770px) {
   #home h1 {
     font-size: 3.5em;
+  }
+  footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+  
+
+  }
+  .copy{
+    margin-top:33px;
+    text-align: center;
+    
+
+  }
+
+
+  .social-icon{
+  transform: scale(1.2);
+  left: -450px;
   }
 }
 
